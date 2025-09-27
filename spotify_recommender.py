@@ -1,5 +1,6 @@
 # Spotify-inspired Music Recommendation Assistant
-# This program recommends music based on genre and mood
+# This program recommends music based on genre and mood, inspired by Spotify's personalized discovery.
+# Connects to Brian Winston's innovation model by addressing the social need for accessible, personalized music.
 
 def main():
     # Welcome message
@@ -50,7 +51,7 @@ def main():
     # Step 3: Recommendations based on genre + mood
     recommendation = ""  # Placeholder for final recommendation
 
-    # If user selects K-pop
+    # K-pop recommendations
     if genre == "K-pop":
         if mood_choice == "1":
             recommendation = "Artist: BTS | Song: Dynamite 🎇"
@@ -61,7 +62,7 @@ def main():
         elif mood_choice == "4":
             recommendation = "Artist: IU | Song: Through the Night 🌙"
 
-    # If user selects Malay
+    # Malay recommendations
     elif genre == "Malay":
         if mood_choice == "1":
             recommendation = "Artist: KRU | Song: Awas 🎉"
@@ -72,7 +73,7 @@ def main():
         elif mood_choice == "4":
             recommendation = "Artist: Siti Nurhaliza | Song: Bukan Cinta Biasa 💔"
 
-    # If user selects English
+    # English recommendations
     else:
         if mood_choice == "1":
             recommendation = "Artist: Pharrell Williams | Song: Happy 😄"
@@ -88,5 +89,6 @@ def main():
     print(recommendation)
     print("\nThanks for using the Music Assistant! 💖 Enjoy your music 🎶")
 
+# Run the program only if this file is executed directly
 if __name__ == "__main__":
     main()
