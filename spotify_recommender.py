@@ -42,6 +42,10 @@ def main():
 
     # Get user choice for mood
     mood_choice = input("Enter your choice (1-4): ").strip()
+    # Validate input (must be 1–4)
+    while mood_choice not in ["1", "2", "3", "4"]:
+        print("❌ Invalid choice! Please enter a number between 1 and 4.")
+        mood_choice = input("Enter your choice (1-4): ").strip()
 
 if __name__ == "__main__":
     main()
