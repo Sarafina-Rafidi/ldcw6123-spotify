@@ -83,5 +83,10 @@ def main():
         elif mood_choice == "4":
             recommendation = "Artist: Adele | Song: Someone Like You 💔"
 
+    # Final Output: Display personalized recommendation
+    print(f"\n🎵 {user_name}, here's a {genre} song for your mood:")
+    print(recommendation)
+    print("\nThanks for using the Music Assistant! 💖 Enjoy your music 🎶")
+
 if __name__ == "__main__":
     main()
