@@ -18,6 +18,10 @@ def main():
 
     # Get user choice for genre
     genre_choice = input("Enter your choice (1-3): ").strip()
+    # Validate input (must be 1–3)
+    while genre_choice not in ["1", "2", "3"]:
+        print("❌ Invalid choice! Please enter 1, 2, or 3.")
+        genre_choice = input("Enter your choice (1-3): ").strip()
 
 if __name__ == "__main__":
     main()
