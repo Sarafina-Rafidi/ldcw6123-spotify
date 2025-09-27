@@ -23,5 +23,15 @@ def main():
         print("❌ Invalid choice! Please enter 1, 2, or 3.")
         genre_choice = input("Enter your choice (1-3): ").strip()
 
+    # Assign genre based on input
+    if genre_choice == "1":
+        genre = "K-pop"
+    elif genre_choice == "2":
+        genre = "Malay"
+    else:
+        genre = "English"
+
+    print(f"\n✨ Great! You selected {genre} songs.\n")
+
 if __name__ == "__main__":
     main()
