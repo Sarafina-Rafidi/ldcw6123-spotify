@@ -61,5 +61,27 @@ def main():
         elif mood_choice == "4":
             recommendation = "Artist: IU | Song: Through the Night 🌙"
 
+    # If user selects Malay
+    elif genre == "Malay":
+        if mood_choice == "1":
+            recommendation = "Artist: KRU | Song: Awas 🎉"
+        elif mood_choice == "2":
+            recommendation = "Artist: Yuna | Song: Dan Sebenarnya 🎧"
+        elif mood_choice == "3":
+            recommendation = "Artist: Faizal Tahir | Song: Gemuruh ⚡"
+        elif mood_choice == "4":
+            recommendation = "Artist: Siti Nurhaliza | Song: Bukan Cinta Biasa 💔"
+
+    # If user selects English
+    else:
+        if mood_choice == "1":
+            recommendation = "Artist: Pharrell Williams | Song: Happy 😄"
+        elif mood_choice == "2":
+            recommendation = "Artist: Lo-fi Girl | Song: Study Beats 🎧"
+        elif mood_choice == "3":
+            recommendation = "Artist: Survivor | Song: Eye of the Tiger 🐯"
+        elif mood_choice == "4":
+            recommendation = "Artist: Adele | Song: Someone Like You 💔"
+
 if __name__ == "__main__":
     main()
