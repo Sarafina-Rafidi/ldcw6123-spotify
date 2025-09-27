@@ -33,5 +33,15 @@ def main():
 
     print(f"\n✨ Great! You selected {genre} songs.\n")
 
+    # Step 2: Mood Selection
+    print("😊 Now choose your mood:")
+    print("1. Happy")
+    print("2. Focus")
+    print("3. Workout")
+    print("4. Sad")
+
+    # Get user choice for mood
+    mood_choice = input("Enter your choice (1-4): ").strip()
+
 if __name__ == "__main__":
     main()
