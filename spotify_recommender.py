@@ -47,5 +47,19 @@ def main():
         print("❌ Invalid choice! Please enter a number between 1 and 4.")
         mood_choice = input("Enter your choice (1-4): ").strip()
 
+    # Step 3: Recommendations based on genre + mood
+    recommendation = ""  # Placeholder for final recommendation
+
+    # If user selects K-pop
+    if genre == "K-pop":
+        if mood_choice == "1":
+            recommendation = "Artist: BTS | Song: Dynamite 🎇"
+        elif mood_choice == "2":
+            recommendation = "Artist: Blackpink | Song: Lovesick Girls 🎧"
+        elif mood_choice == "3":
+            recommendation = "Artist: Stray Kids | Song: God's Menu 💪"
+        elif mood_choice == "4":
+            recommendation = "Artist: IU | Song: Through the Night 🌙"
+
 if __name__ == "__main__":
     main()
