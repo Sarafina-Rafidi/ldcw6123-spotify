@@ -1,6 +1,7 @@
 # Spotify-inspired Music Recommendation Assistant
 # This program recommends music based on genre and mood, inspired by Spotify's personalized discovery.
-# Connects to Brian Winston's innovation model by addressing the social need for accessible, personalized music.
+# Connects to Christensen's innovation model by addressing how technology can create new value for users
+# and transform traditional music consumption patterns.
 
 def main():
     # Welcome message
